@@ -1,0 +1,315 @@
+[
+  {
+    "id": 1,
+    "question": "What is digital transformation?",
+    "answer": "Digital transformation is the integration of digital technologies into business and government operations to improve efficiency, value creation, and customer experience.",
+    "question_uz": ["Raqamli transformatsiya nima?", "Raqamli o‘zgarish nima?", "Raqamli iqtisodiy transformatsiya nima?"],
+    "answer_uz": "Raqamli transformatsiya - bu biznes va hukumat operatsiyalarida samaradorlik, qiymat yaratish va mijoz tajribasini yaxshilash uchun raqamli texnologiyalarni integratsiya qilishdir."
+  },
+  {
+    "id": 2,
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence refers to computer systems that can perform tasks normally requiring human intelligence, including learning, reasoning, and decision-making.",
+    "question_uz": ["Sun'iy intellekt nima?", "AI nima?", "Kompyuter aqlli tizimlari nima?"],
+    "answer_uz": "Sun'iy intellekt - bu odatda inson intellektini talab qiladigan vazifalarni bajaradigan kompyuter tizimlarini anglatadi, jumladan o‘rganish, mantiqiy fikrlash va qaror qabul qilish."
+  },
+  {
+    "id": 3,
+    "question": "What is digital economy?",
+    "answer": "The digital economy is an economy that is based on digital technologies such as the internet, big data, cloud computing, and artificial intelligence.",
+    "question_uz": ["Raqamli iqtisodiyot nima?", "Raqamli iqtisodiy tizim nima?", "Raqamli moliya tizimi nima?"],
+    "answer_uz": "Raqamli iqtisodiyot - bu internet, katta ma'lumotlar, bulutli hisoblash va sun'iy intellekt kabi raqamli texnologiyalarga asoslangan iqtisodiyotdir."
+  },
+  {
+    "id": 4,
+    "question": "What is smart government?",
+    "answer": "Smart government uses digital tools and data analytics to improve public service delivery, transparency, and decision-making efficiency.",
+    "question_uz": ["Aqlli hukumat nima?", "Raqamli hukumat nima?", "Intellektual hukumat nima?"],
+    "answer_uz": "Aqlli hukumat raqamli vositalar va ma'lumotlar tahlilidan foydalanib, davlat xizmatlarini samarali, shaffof va tezkor qilishni maqsad qiladi."
+  },
+  {
+    "id": 5,
+    "question": "What is data privacy?",
+    "answer": "Data privacy refers to the protection of personal and sensitive information from unauthorized access, use, or disclosure.",
+    "question_uz": ["Ma'lumotlar maxfiyligi nima?", "Shaxsiy ma'lumotlarni himoya qilish nima?", "Ma'lumotlarni maxfiy saqlash nima?"],
+    "answer_uz": "Ma'lumotlar maxfiyligi - bu shaxsiy va sezgir ma'lumotlarni ruxsatsiz kirish, foydalanish yoki oshkor qilishdan himoya qilishdir."
+  },
+  {
+    "id": 6,
+    "question": "What is big data?",
+    "answer": "Big data refers to extremely large and complex datasets that require advanced tools and algorithms for storage, processing, and analysis.",
+    "question_uz": ["Katta ma'lumotlar nima?", "Big data nima?", "Ulg‘aytirilgan ma'lumotlar nima?"],
+    "answer_uz": "Katta ma'lumotlar - saqlash, qayta ishlash va tahlil qilish uchun ilg‘or vositalar va algoritmlarni talab qiladigan juda katta va murakkab ma'lumotlar to‘plamidir."
+  },
+  {
+    "id": 7,
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of AI that allows systems to learn from data and improve their performance over time without explicit programming.",
+    "question_uz": ["Mashina o‘rganishi nima?", "Machine learning nima?", "Ma'lumotlardan o‘rganish tizimi nima?"],
+    "answer_uz": "Mashina o‘rganishi - bu tizimlarga ma'lumotlardan o‘rganish va vaqt o‘tishi bilan ishlash samaradorligini oshirish imkonini beradigan sun'iy intellektning bir qismidir."
+  },
+  {
+    "id": 8,
+    "question": "What is deep learning?",
+    "answer": "Deep learning is a type of machine learning that uses neural networks with many layers to model complex patterns in data.",
+    "question_uz": ["Chuqur o‘rganish nima?", "Deep learning nima?", "Neyron tarmoqlar asosidagi o‘rganish nima?"],
+    "answer_uz": "Chuqur o‘rganish - bu ko‘p qatlamli neyron tarmoqlardan foydalanadigan mashina o‘rganish turi bo‘lib, ma'lumotlardagi murakkab naqshlarni modellashtiradi."
+  },
+  {
+    "id": 9,
+    "question": "What is Internet of Things (IoT)?",
+    "answer": "The Internet of Things refers to the network of physical devices embedded with sensors, software, and connectivity to collect and exchange data.",
+    "question_uz": ["Narsalar interneti nima?", "IoT nima?", "Ulanadigan qurilmalar tarmog‘i nima?"],
+    "answer_uz": "Narsalar interneti - bu sensorlar, dasturiy ta'minot va tarmoq bilan jihozlangan fizik qurilmalar tarmog‘iga aytiladi, ular ma'lumotlarni yig‘adi va almashadi."
+  },
+  {
+    "id": 10,
+    "question": "What is blockchain technology?",
+    "answer": "Blockchain is a decentralized digital ledger that records transactions across a distributed network, ensuring transparency and security.",
+    "question_uz": ["Blokcheyn texnologiyasi nima?", "Blockchain nima?", "Markazlashtirilmagan reestr nima?"],
+    "answer_uz": "Blokcheyn - bu tarqatilgan tarmoq bo‘ylab tranzaksiyalarni yozib boradigan markazlashtirilmagan raqamli reestr bo‘lib, shaffoflik va xavfsizlikni ta'minlaydi."
+  },
+  {
+    "id": 11,
+    "question": "What is fintech?",
+    "answer": "Financial technology (fintech) uses innovative digital solutions to improve financial services, payments, lending, and investment management.",
+    "question_uz": ["Fintech nima?", "Moliyaviy texnologiya nima?", "Raqamli moliya tizimi nima?"],
+    "answer_uz": "Moliyaviy texnologiya (fintech) moliyaviy xizmatlar, to‘lovlar, kreditlash va investitsiyalarni boshqarishni yaxshilash uchun innovatsion raqamli yechimlardan foydalanadi."
+  },
+  {
+    "id": 12,
+    "question": "What is cloud computing?",
+    "answer": "Cloud computing delivers computing services, including storage, processing, and software, over the internet, allowing scalable and flexible access.",
+    "question_uz": ["Bulutli hisoblash nima?", "Cloud computing nima?", "Internet orqali hisoblash nima?"],
+    "answer_uz": "Bulutli hisoblash internet orqali saqlash, qayta ishlash va dasturiy ta'minot xizmatlarini taqdim etadi, bu esa kengaytiriladigan va moslashuvchan kirishni ta'minlaydi."
+  },
+  {
+    "id": 13,
+    "question": "What is predictive analytics?",
+    "answer": "Predictive analytics uses statistical techniques and machine learning algorithms to analyze historical data and forecast future outcomes.",
+    "question_uz": ["Prognozli tahlil nima?", "Predictive analytics nima?", "Kelajakni bashorat qilish tahlili nima?"],
+    "answer_uz": "Prognozli tahlil tarixiy ma'lumotlarni tahlil qilish va kelajak natijalarni bashorat qilish uchun statistik texnikalar va mashina o‘rganish algoritmlaridan foydalanadi."
+  },
+  {
+    "id": 14,
+    "question": "What is natural language processing (NLP)?",
+    "answer": "NLP is a branch of AI that enables computers to understand, interpret, and generate human language.",
+    "question_uz": ["Tabiiy tilni qayta ishlash nima?", "NLP nima?", "Inson tilini tushunadigan tizim nima?"],
+    "answer_uz": "NLP - bu kompyuterlar inson tilini tushunishi, talqin qilishi va yaratishi mumkin bo‘lgan sun'iy intellekt sohasidir."
+  },
+  {
+    "id": 15,
+    "question": "What is robotic process automation (RPA)?",
+    "answer": "RPA uses software robots to automate repetitive and rule-based tasks, improving efficiency and reducing errors in business processes.",
+    "question_uz": ["Robotli jarayonlarni avtomatlashtirish nima?", "RPA nima?", "Avtomatik ish jarayoni nima?"],
+    "answer_uz": "RPA - bu dasturiy robotlar yordamida takroriy va qoidalarga asoslangan vazifalarni avtomatlashtiradi, biznes jarayonlarida samaradorlikni oshiradi va xatolarni kamaytiradi."
+  },
+  {
+    "id": 16,
+    "question": "What is cybersecurity?",
+    "answer": "Cybersecurity involves protecting computer systems, networks, and data from digital attacks, unauthorized access, or damage.",
+    "question_uz": ["Kiberxavfsizlik nima?", "Cybersecurity nima?", "Internet xavfsizligi nima?"],
+    "answer_uz": "Kiberxavfsizlik kompyuter tizimlari, tarmoqlar va ma'lumotlarni raqamli hujumlar, ruxsatsiz kirish yoki zarar etkazilishidan himoya qilishni o‘z ichiga oladi."
+  },
+  {
+    "id": 17,
+    "question": "What is digital payment?",
+    "answer": "Digital payment refers to the use of electronic methods to transfer money, including mobile payments, e-wallets, and online banking.",
+    "question_uz": ["Raqamli to‘lov nima?", "Digital payment nima?", "Elektron to‘lov nima?"],
+    "answer_uz": "Raqamli to‘lov - bu pulni uzatish uchun elektron usullardan foydalanishni anglatadi, jumladan mobil to‘lovlar, elektron hamyonlar va internet banking."
+  },
+  {
+    "id": 18,
+    "question": "What is government data analytics?",
+    "answer": "Government data analytics uses data analysis techniques to improve policy decisions, public service efficiency, and resource allocation.",
+    "question_uz": ["Davlat ma'lumotlar tahlili nima?", "Government data analytics nima?", "Davlat siyosati tahlili nima?"],
+    "answer_uz": "Davlat ma'lumotlar tahlili siyosat qarorlarini, davlat xizmatlari samaradorligini va resurslarni taqsimlashni yaxshilash uchun ma'lumotlarni tahlil qilish usullaridan foydalanadi."
+  },
+  {
+    "id": 19,
+    "question": "What is AI ethics?",
+    "answer": "AI ethics deals with the moral and societal implications of AI technologies, including fairness, transparency, accountability, and bias prevention.",
+    "question_uz": ["Sun'iy intellekt etikasi nima?", "AI ethics nima?", "AI axloqi nima?"],
+    "answer_uz": "Sun'iy intellekt etikasi - bu AI texnologiyalarining axloqiy va ijtimoiy ta'sirlarini o‘rganadi, jumladan adolat, shaffoflik, javobgarlik va tarafkashlikni oldini olish."
+  },
+  {
+    "id": 20,
+    "question": "What is smart city?",
+    "answer": "A smart city uses digital technologies, IoT, and data analytics to optimize urban infrastructure, enhance public services, and improve citizens' quality of life.",
+    "question_uz": ["Aqlli shahar nima?", "Smart city nima?", "Intellektual shahar nima?"],
+    "answer_uz": "Aqlli shahar raqamli texnologiyalar, IoT va ma'lumotlar tahlilidan foydalanib, shahar infratuzilmasini optimallashtiradi, davlat xizmatlarini yaxshilaydi va fuqarolarning hayot sifatini oshiradi."
+  },{
+    "question": "What is digital transformation?",
+    "answer": "Digital transformation refers to the integration of digital technology into all areas of business and society.",
+    "question_uz": ["Raqamli transformatsiya nima?", "Digitalizatsiya jarayoni nima?", "Biznesni raqamlashtirish nima?"],
+    "answer_uz": "Raqamli transformatsiya biznes va jamiyatning barcha sohalariga raqamli texnologiyalarni integratsiya qilishni anglatadi."
+  },
+  {
+    "question": "Why is digital transformation important for businesses?",
+    "answer": "Digital transformation helps businesses improve efficiency, reach new markets, and enhance customer experiences.",
+    "question_uz": ["Nima uchun raqamli transformatsiya biznes uchun muhim?", "Biznesda digitalizatsiya nima foyda beradi?", "Raqamli o'zgarish biznesga qanday yordam beradi?"],
+    "answer_uz": "Raqamli transformatsiya biznesga samaradorlikni oshirish, yangi bozorlarni ochish va mijoz tajribasini yaxshilashga yordam beradi."
+  },
+  {
+    "question": "What are AI applications in healthcare?",
+    "answer": "AI applications in healthcare include disease diagnosis, personalized treatment, and medical imaging analysis.",
+    "question_uz": ["Sog'liqni saqlashda AI qo'llanilishi nima?", "Sun'iy intellekt tibbiyotda qanday ishlatiladi?", "AI tibbiyot sohasida qanday foyda beradi?"],
+    "answer_uz": "Sog'liqni saqlashda AI qo'llanilishi kasalliklarni aniqlash, individual davolash va tibbiy tasvirlarni tahlil qilishni o'z ichiga oladi."
+  },
+  {
+    "question": "How is AI used in finance?",
+    "answer": "AI is used in finance for fraud detection, algorithmic trading, and customer service automation.",
+    "question_uz": ["Moliyada AI qanday ishlatiladi?", "Sun'iy intellekt moliya sohasida nima qiladi?", "AI bank va moliya tizimlarida qanday qo'llanadi?"],
+    "answer_uz": "AI moliya sohasida firibgarlikni aniqlash, algoritmik savdo va mijozlarga xizmatni avtomatlashtirish uchun ishlatiladi."
+  },
+  {
+    "question": "What is data privacy?",
+    "answer": "Data privacy refers to protecting personal or sensitive information from unauthorized access and misuse.",
+    "question_uz": ["Ma'lumotlar maxfiyligi nima?", "Shaxsiy ma'lumotlarni himoya qilish nima?", "Data privacy tushunchasi nima?"],
+    "answer_uz": "Ma'lumotlar maxfiyligi shaxsiy yoki sezgir ma'lumotlarni ruxsatsiz kirish va noto'g'ri ishlatishdan himoya qilishni anglatadi."
+  },
+  {
+    "question": "What is smart government?",
+    "answer": "Smart government uses digital technologies to improve public services, transparency, and citizen engagement.",
+    "question_uz": ["Aqlli hukumat nima?", "Smart government tushunchasi nima?", "Raqamli hukumat nima qiladi?"],
+    "answer_uz": "Aqlli hukumat raqamli texnologiyalar yordamida davlat xizmatlarini yaxshilash, shaffoflikni oshirish va fuqarolarni jalb qilishga yordam beradi."
+  },
+  {
+    "question": "How does AI improve decision-making?",
+    "answer": "AI improves decision-making by analyzing large datasets and providing insights and predictions.",
+    "question_uz": ["AI qaror qabul qilishni qanday yaxshilaydi?", "Sun'iy intellekt qanday yordam beradi?", "AI tahlil orqali qarorlarni yaxshilaydi?"],
+    "answer_uz": "AI katta ma'lumotlar to'plamini tahlil qilib, qarorlar qabul qilish uchun tushuncha va prognozlar beradi."
+  },
+  {
+    "question": "What are examples of AI in education?",
+    "answer": "AI in education includes personalized learning platforms, grading automation, and virtual tutors.",
+    "question_uz": ["Ta'limda AI misollari nima?", "Sun'iy intellekt ta'lim sohasida qanday ishlatiladi?", "AI maktab va universitetlarda qanday qo'llanadi?"],
+    "answer_uz": "Ta'limda AI individual o'qitish platformalari, baholashni avtomatlashtirish va virtual murabbiylarni o'z ichiga oladi."
+  },
+  {
+    "question": "What are the challenges of digital transformation?",
+    "answer": "Challenges include resistance to change, cybersecurity risks, and lack of skilled workforce.",
+    "question_uz": ["Raqamli transformatsiyaning qiyinchiliklari nima?", "Digitalizatsiya jarayonidagi muammolar nima?", "O'zgarishga qarshilik va xavfsizlik muammolari?"],
+    "answer_uz": "Qiyinchiliklar orasida o'zgarishga qarshilik, kiberxavfsizlik xavfi va malakali kadrlarning yetishmasligi mavjud."
+  },
+  {
+    "question": "How can governments use AI for public services?",
+    "answer": "Governments can use AI to optimize resource allocation, automate routine tasks, and improve citizen engagement.",
+    "question_uz": ["Hukumat AI-ni davlat xizmatlari uchun qanday ishlatishi mumkin?", "Sun'iy intellekt davlat xizmatlarini yaxshilashda qanday yordam beradi?", "AI fuqarolarga xizmat ko'rsatishni qanday osonlashtiradi?"],
+    "answer_uz": "Hukumat AI yordamida resurslarni optimallashtirish, oddiy vazifalarni avtomatlashtirish va fuqarolar bilan aloqani yaxshilashi mumkin."
+  },
+  {
+    "question": "How does digital transformation impact the financial sector?",
+    "answer": "Digital transformation in finance improves efficiency, reduces costs, and enables innovative financial services.",
+    "question_uz": ["Raqamli transformatsiya moliya sohasiga qanday ta'sir qiladi?", "Digitalizatsiya bank tizimlariga qanday foyda beradi?", "Moliya sohasidagi digital o'zgarishlar nima?"],
+    "answer_uz": "Raqamli transformatsiya moliya tizimida samaradorlikni oshiradi, xarajatlarni kamaytiradi va innovatsion moliyaviy xizmatlarni taqdim etadi."
+  },
+  {
+    "question": "What is the role of AI in smart cities?",
+    "answer": "AI helps smart cities optimize traffic, improve energy efficiency, and enhance public safety.",
+    "question_uz": ["Aqlli shaharlarda AI roli nima?", "Smart citiesda sun'iy intellekt qanday ishlatiladi?", "AI shaharlarni boshqarishda qanday yordam beradi?"],
+    "answer_uz": "AI aqlli shaharlarda transportni optimallashtirish, energiya samaradorligini oshirish va jamoat xavfsizligini yaxshilashga yordam beradi."
+  },
+  {
+    "question": "How does data privacy affect businesses?",
+    "answer": "Data privacy compliance builds customer trust, avoids legal penalties, and protects sensitive information.",
+    "question_uz": ["Ma'lumotlar maxfiyligi biznesga qanday ta'sir qiladi?", "Data privacy qoidalariga rioya qilish biznesga nima beradi?", "Shaxsiy ma'lumotlarni himoya qilish biznesga qanday yordam beradi?"],
+    "answer_uz": "Ma'lumotlar maxfiyligiga rioya qilish mijozlar ishonchini oshiradi, qonuniy jarimalardan saqlaydi va sezgir ma'lumotlarni himoya qiladi."
+  },
+  {
+    "question": "What is FinTech?",
+    "answer": "FinTech refers to the use of technology to improve and automate financial services.",
+    "question_uz": ["FinTech nima?", "Moliyaviy texnologiyalar tushunchasi nima?", "FinTech bank va moliya sohasida nima qiladi?"],
+    "answer_uz": "FinTech moliya xizmatlarini yaxshilash va avtomatlashtirish uchun texnologiyalardan foydalanishni anglatadi."
+  },
+  {
+    "question": "How does AI enhance cybersecurity?",
+    "answer": "AI enhances cybersecurity by detecting threats, preventing attacks, and analyzing large volumes of data.",
+    "question_uz": ["AI kiberxavfsizlikni qanday yaxshilaydi?", "Sun'iy intellekt xavfsizlikni oshirishda qanday ishlatiladi?", "AI tizimlarni himoya qilishga qanday yordam beradi?"],
+    "answer_uz": "AI tahdidlarni aniqlash, hujumlarni oldini olish va katta hajmdagi ma'lumotlarni tahlil qilish orqali kiberxavfsizlikni oshiradi."
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of AI where systems learn from data to make predictions or decisions.",
+    "question_uz": ["Mashina o'rganish nima?", "Machine learning tushunchasi nima?", "Sun'iy intellektning mashina o'rganish qismi nima?"],
+    "answer_uz": "Mashina o'rganish AI ning bir qismi bo'lib, tizimlar ma'lumotlardan o'rganib prognozlar yoki qarorlar qabul qiladi."
+  },
+  {
+    "question": "How can governments improve citizen engagement using technology?",
+    "answer": "Governments can use digital platforms, AI chatbots, and mobile apps to increase citizen participation.",
+    "question_uz": ["Hukumatlar texnologiya orqali fuqarolarni jalb qilishni qanday yaxshilashi mumkin?", "AI va raqamli platformalar yordamida fuqarolarni qanday jalb qilish mumkin?", "Fuqarolar ishtirokini oshirish uchun texnologiyadan foydalanish?"],
+    "answer_uz": "Hukumatlar raqamli platformalar, AI chatbotlar va mobil ilovalar yordamida fuqarolar ishtirokini oshirishi mumkin."
+  },
+  {
+    "question": "What are the benefits of digital banking?",
+    "answer": "Digital banking offers convenience, faster transactions, and access to innovative financial services.",
+    "question_uz": ["Raqamli bank xizmatlarining foydalari nima?", "Digital banking nima foyda beradi?", "Onlayn bank xizmatlari qanday afzalliklarga ega?"],
+    "answer_uz": "Raqamli bank xizmatlari qulaylik, tezkor tranzaksiyalar va innovatsion moliyaviy xizmatlarga kirishni taqdim etadi."
+  },
+  {
+    "question": "How does AI help in supply chain management?",
+    "answer": "AI helps optimize logistics, forecast demand, and manage inventory efficiently.",
+    "question_uz": ["AI ta'minot zanjirini boshqarishda qanday yordam beradi?", "Sun'iy intellekt logistika va inventarizatsiyani qanday yaxshilaydi?", "AI etkazib berish zanjirini boshqarishni qanday osonlashtiradi?"],
+    "answer_uz": "AI logistika jarayonlarini optimallashtiradi, talabni prognoz qiladi va inventarizatsiyani samarali boshqaradi."
+  },
+  {
+    "question": "What is robotic process automation (RPA)?",
+    "answer": "RPA uses software robots to automate repetitive business processes.",
+    "question_uz": ["Robotic process automation nima?", "RPA tushunchasi nima?", "Sun'iy intellekt yordamida jarayonlarni avtomatlashtirish?"],
+    "answer_uz": "RPA dasturiy robotlar yordamida takroriy biznes jarayonlarini avtomatlashtiradi."
+  },
+  {
+    "question": "How does AI impact marketing?",
+    "answer": "AI impacts marketing by personalizing customer experiences and optimizing campaigns.",
+    "question_uz": ["AI marketingga qanday ta'sir qiladi?", "Sun'iy intellekt marketing strategiyasini qanday yaxshilaydi?", "AI mijoz tajribasini qanday individualizatsiya qiladi?"],
+    "answer_uz": "AI marketingda mijoz tajribasini individualizatsiya qilish va kampaniyalarni optimallashtirish orqali yordam beradi."
+  },
+  {
+    "question": "What is the role of AI in financial risk management?",
+    "answer": "AI helps detect and predict financial risks, improving decision-making and reducing losses.",
+    "question_uz": ["Moliyaviy risklarni boshqarishda AI roli nima?", "Sun'iy intellekt moliyaviy xavflarni qanday aniqlaydi?", "AI yordamida zararlarni kamaytirish?"],
+    "answer_uz": "AI moliyaviy risklarni aniqlash va prognoz qilish orqali qaror qabul qilishni yaxshilaydi va zararlarni kamaytiradi."
+  },
+  {
+    "question": "How can AI improve public transportation?",
+    "answer": "AI can optimize routes, predict delays, and enhance commuter safety in public transportation.",
+    "question_uz": ["AI jamoat transportini qanday yaxshilaydi?", "Sun'iy intellekt transport yo'nalishlarini qanday optimallashtiradi?", "AI yordamida xavfsizlikni oshirish?"],
+    "answer_uz": "AI yo'nalishlarni optimallashtiradi, kechikishlarni prognoz qiladi va yo'lovchi xavfsizligini oshiradi."
+  },
+  {
+    "question": "What is e-Government?",
+    "answer": "E-Government is the use of digital technologies to provide government services online.",
+    "question_uz": ["Elektron hukumat nima?", "E-Government tushunchasi nima?", "Raqamli davlat xizmatlari nima?"],
+    "answer_uz": "E-Government raqamli texnologiyalar yordamida hukumat xizmatlarini onlayn taqdim etishni anglatadi."
+  },
+  {
+    "question": "What is predictive analytics?",
+    "answer": "Predictive analytics uses data, statistical algorithms, and machine learning to predict future outcomes.",
+    "question_uz": ["Predictive analytics nima?", "Oldindan tahlil qilish nima?", "Ma'lumotlar yordamida kelajakni prognoz qilish?"],
+    "answer_uz": "Predictive analytics ma'lumotlar, statistik algoritmlar va mashina o'rganish orqali kelajak natijalarni prognoz qiladi."
+  },
+  {
+    "question": "How can AI support e-Government services?",
+    "answer": "AI can automate document processing, provide chatbots for citizens, and improve decision-making in e-Government services.",
+    "question_uz": ["AI e-Government xizmatlarini qanday qo'llab-quvvatlaydi?", "Sun'iy intellekt hukumat xizmatlarini avtomatlashtirishda qanday yordam beradi?", "AI fuqarolar bilan interaktiv xizmatlar taqdim etadi?"],
+    "answer_uz": "AI hujjatlarni avtomatlashtirish, chatbotlar yordamida fuqarolarga xizmat ko'rsatish va qaror qabul qilishni yaxshilashga yordam beradi."
+  },
+  {
+    "question": "What is blockchain in finance?",
+    "answer": "Blockchain is a distributed ledger technology used to record transactions securely and transparently.",
+    "question_uz": ["Moliyada blockchain nima?", "Blockchain texnologiyasi nima?", "Moliyaviy tranzaksiyalarni xavfsiz yozish?"],
+    "answer_uz": "Blockchain tarqatilgan ledger texnologiyasi bo'lib, tranzaksiyalarni xavfsiz va shaffof yozish uchun ishlatiladi."
+  },
+  {
+    "question": "How does AI help in fraud detection?",
+    "answer": "AI detects unusual patterns and anomalies to prevent fraud in finance and other sectors.",
+    "question_uz": ["AI firibgarlikni qanday aniqlaydi?", "Sun'iy intellekt firibgarlikni oldini olishda qanday yordam beradi?", "AI moliyaviy firibgarlikni aniqlaydi?"],
+    "answer_uz": "AI moliya va boshqa sohalarda firibgarlikni oldini olish uchun g'alati naqshlar va anomaliyalarni aniqlaydi."
+  },
+  {
+    "question": "What is the impact of AI on employment?",
+    "answer": "AI can automate tasks, creating efficiency, but may also require workforce reskilling.",
+    "question_uz": ["AI ish o'rinlariga qanday ta'sir qiladi?", "Sun'iy intellekt ishchilarni qanday o'zgartiradi?", "AI ish jarayonlarini avtomatlashtiradimi?"],
+    "answer_uz": "AI vazifalarni avtomatlashtiradi, samaradorlikni oshiradi, lekin xodimlarni qayta o'qitish talab qilishi mumkin."
+  }
+]
