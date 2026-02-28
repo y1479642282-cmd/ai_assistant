@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "topic": "Smart Governance",
+    "question": "How is AI used in smart governance?",
+    "answer_en": "AI in smart governance automates administrative tasks, analyzes large datasets for policy-making, and improves public service delivery.",
+    "answer_ru": "ИИ в умном управлении автоматизирует административные задачи, анализирует большие данные для разработки политики и улучшает предоставление государственных услуг.",
+    "answer_uz": "Aqlli boshqaruvda sun'iy intellekt ma'muriy vazifalarni avtomatlashtiradi, siyosatni ishlab chiqish uchun katta ma'lumotlarni tahlil qiladi va davlat xizmatlarini ko'rsatishni yaxshilaydi."
+  },
+  {
+    "id": 2,
+    "topic": "Smart Governance",
+    "question": "Can you provide examples of AI applications in international government sectors?",
+    "answer_en": "Governments globally use AI for traffic optimization, predictive policing, and automated processing of citizen requests to enhance administrative efficiency.",
+    "answer_ru": "Правительства во всем мире используют ИИ для оптимизации дорожного движения, предиктивной работы полиции и автоматизированной обработки запросов граждан.",
+    "answer_uz": "Hukumatlar sun'iy intellektdan transport oqimini optimallashtirish, jinoyatlarni oldindan aytib berish va fuqarolar murojaatlarini avtomatik qayta ishlashda foydalanadilar."
+  },
+  {
+    "id": 3,
+    "topic": "Smart Governance",
+    "question": "What is the role of big data in public sector decision making?",
+    "answer_en": "Big data allows public sectors to monitor real-time urban dynamics and allocate resources more accurately during crises or for long-term urban planning.",
+    "answer_ru": "Большие данные позволяют государственному сектору отслеживать городскую динамику в реальном времени и более точно распределять ресурсы.",
+    "answer_uz": "Katta ma'lumotlar davlat sektoriga shahar dinamikasini real vaqtda kuzatish va resurslarni aniqroq taqsimlash imkonini beradi."
+  },
+  {
+    "id": 4,
+    "topic": "Smart Governance",
+    "question": "How do digital ID systems contribute to the digital economy?",
+    "answer_en": "Digital ID systems streamline citizen verification, reduce fraud, and enable seamless access to digital government and financial services.",
+    "answer_ru": "Системы цифровой идентификации упрощают проверку граждан, снижают уровень мошенничества и обеспечивают беспрепятственный доступ к цифровым услугам.",
+    "answer_uz": "Raqamli ID tizimlari fuqarolarni tekshirishni osonlashtiradi, firibgarlikni kamaytiradi va raqamli xizmatlardan foydalanishni ta'minlaydi."
+  },
+  {
+    "id": 5,
+    "topic": "Data Privacy",
+    "question": "What are the main risks of AI to data privacy?",
+    "answer_en": "Main risks include unauthorized data collection, re-identification of anonymized data, and lack of transparency in AI algorithms.",
+    "answer_ru": "К основным рискам относятся несанкционированный сбор данных, деанонимизация данных и отсутствие прозрачности в алгоритмах ИИ.",
+    "answer_uz": "Asosiy xavflarga ruxsatsiz ma'lumotlarni yig'ish, anonimlashtirilgan ma'lumotlarni qayta aniqlash va sun'iy intellekt algoritmlarida shaffoflikning yo'qligi kiradi."
+  },
+  {
+    "id": 6,
+    "topic": "Data Privacy",
+    "question": "How can companies protect user data when using machine learning?",
+    "answer_en": "Companies should use data anonymization, end-to-end encryption, and federated learning to ensure data stays on local devices.",
+    "answer_ru": "Компании должны использовать анонимизацию данных, сквозное шифрование и федеративное обучение.",
+    "answer_uz": "Kompaniyalar ma'lumotlarni anonimlashtirish, shifrlash va federativ o'qitish usullaridan foydalanishlari kerak."
+  },
+  {
+    "id": 7,
+    "topic": "Data Privacy",
+    "question": "What is GDPR and how does it affect AI development?",
+    "answer_en": "GDPR is a European regulation that strictly limits how personal data is collected and processed, forcing AI models to be more transparent and compliant.",
+    "answer_ru": "GDPR — это европейский регламент, который строго ограничивает сбор и обработку персональных данных, заставляя модели ИИ быть более прозрачными.",
+    "answer_uz": "GDPR Yevropa qoidasi bo'lib, u shaxsiy ma'lumotlarni yig'ishni cheklaydi va sun'iy intellekt modellarini shaffof bo'lishga majbur qiladi."
+  },
+  {
+    "id": 8,
+    "topic": "AI Adoption",
+    "question": "How does natural language processing benefit the digital economy?",
+    "answer_en": "NLP powers tools like automated text summarization and smart chatbots, allowing businesses to process massive amounts of textual data rapidly and reduce support costs.",
+    "answer_ru": "NLP лежит в основе таких инструментов, как автоматическое реферирование текста и умные чат-боты, позволяя бизнесу быстро обрабатывать массивы данных.",
+    "answer_uz": "NLP avtomatlashtirilgan matn xulosalash va aqlli chat-botlar kabi vositalarni quvvatlab, korxonalarga ma'lumotlarni tez qayta ishlash imkonini beradi."
+  },
+  {
+    "id": 9,
+    "topic": "AI Adoption",
+    "question": "What are the common challenges when implementing AI in business?",
+    "answer_en": "Common challenges include high initial setup costs, lack of skilled AI talent, and poor data quality.",
+    "answer_ru": "К числу общих проблем относятся высокие первоначальные затраты на установку, нехватка квалифицированных специалистов по ИИ и низкое качество данных.",
+    "answer_uz": "Asosiy qiyinchiliklar orasida o'rnatish xarajatlari, malakali mutaxassislarning yetishmasligi va ma'lumotlar sifatining pastligi mavjud."
+  },
+  {
+    "id": 10,
+    "topic": "AI Adoption",
+    "question": "How does parallel computing accelerate AI systems?",
+    "answer_en": "Parallel computing distributes massive dataset processing and algorithm training across multiple GPUs, significantly reducing the time required to train deep learning models.",
+    "answer_ru": "Параллельные вычисления распределяют обработку данных по нескольким графическим процессорам, значительно сокращая время обучения моделей.",
+    "answer_uz": "Parallel hisoblash ma'lumotlarni qayta ishlashni bir nechta GPU-larga taqsimlaydi va modellarni o'qitish vaqtini sezilarli darajada qisqartiradi."
+  },
+  {
+    "id": 11,
+    "topic": "AI Adoption",
+    "question": "What is the role of neural networks in computer vision?",
+    "answer_en": "Neural networks, particularly convolutional networks, allow computers to analyze images and video streams for tasks like facial recognition and automated quality inspection.",
+    "answer_ru": "Нейронные сети, особенно сверточные, позволяют компьютерам анализировать изображения для таких задач, как распознавание лиц и контроль качества.",
+    "answer_uz": "Neyron tarmoqlari kompyuterlarga yuzni aniqlash va sifatni nazorat qilish kabi vazifalar uchun tasvirlarni tahlil qilish imkonini beradi."
+  },
+  {
+    "id": 12,
+    "topic": "Digital Transformation",
+    "question": "What is digital transformation?",
+    "answer_en": "Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value to customers.",
+    "answer_ru": "Цифровая трансформация — это интеграция цифровых технологий во все сферы бизнеса, кардинально меняющая способы его работы.",
+    "answer_uz": "Raqamli transformatsiya - bu raqamli texnologiyalarni biznesning barcha sohalariga joriy etish, uning qanday ishlashini tubdan o'zgartirishdir."
+  },
+  {
+    "id": 13,
+    "topic": "Digital Transformation",
+    "question": "What role do data warehouses play in digital transformation?",
+    "answer_en": "Data warehouses, utilizing multidimensional OLAP technologies, aggregate scattered operational data into a central repository to drive logical, strategic business decisions.",
+    "answer_ru": "Хранилища данных, использующие технологии OLAP, объединяют разрозненные данные в центральный репозиторий для принятия стратегических решений.",
+    "answer_uz": "Ma'lumotlar omborlari OLAP texnologiyalaridan foydalangan holda, strategik qarorlar qabul qilish uchun ma'lumotlarni markaziy omborga to'playdi."
+  },
+  {
+    "id": 14,
+    "topic": "Digital Transformation",
+    "question": "Why is cloud computing essential for digital transformation?",
+    "answer_en": "Cloud computing provides scalable infrastructure, allowing companies to deploy applications globally without maintaining expensive physical servers.",
+    "answer_ru": "Облачные вычисления обеспечивают масштабируемую инфраструктуру, позволяя компаниям развертывать приложения без дорогостоящих физических серверов.",
+    "answer_uz": "Bulutli hisoblash kengaytiriladigan infratuzilmani taqdim etadi, bu kompaniyalarga qimmat jismoniy serverlarsiz ishlash imkonini beradi."
+  },
+  {
+    "id": 15,
+    "topic": "Digital Transformation",
+    "question": "How does IoT contribute to digital economies?",
+    "answer_en": "The Internet of Things (IoT) connects physical devices to the internet, generating real-time data for supply chain optimization and smart manufacturing.",
+    "answer_ru": "Интернет вещей (IoT) подключает физические устройства к интернету, генерируя данные в реальном времени для оптимизации цепочек поставок.",
+    "answer_uz": "Narsalar interneti (IoT) jismoniy qurilmalarni internetga ulaydi, aqlli ishlab chiqarish uchun real vaqtda ma'lumotlar yaratadi."
+  },
+  {
+    "id": 16,
+    "topic": "Digital Economy",
+    "question": "What defines the digital economy?",
+    "answer_en": "The digital economy encompasses all economic activities that rely on, or are significantly enhanced by, the use of digital inputs, including digital technologies and data.",
+    "answer_ru": "Цифровая экономика охватывает все виды экономической деятельности, которые опираются на использование цифровых технологий и данных.",
+    "answer_uz": "Raqamli iqtisodiyot raqamli texnologiyalar va ma'lumotlardan foydalanishga tayanadigan barcha iqtisodiy faoliyatni o'z ichiga oladi."
+  },
+  {
+    "id": 17,
+    "topic": "Digital Economy",
+    "question": "How does Fintech disrupt traditional banking?",
+    "answer_en": "Fintech introduces mobile payments, blockchain algorithms, and automated lending, making financial services more accessible and cost-effective.",
+    "answer_ru": "Финтех внедряет мобильные платежи, блокчейн и автоматизированное кредитование, делая финансовые услуги более доступными.",
+    "answer_uz": "Fintech mobil to'lovlar, blokcheyn va avtomatlashtirilgan kreditlashni joriy etib, moliyaviy xizmatlarni qulayroq qiladi."
+  },
+  {
+    "id": 18,
+    "topic": "Digital Economy",
+    "question": "What is the gig economy?",
+    "answer_en": "The gig economy is a labor market characterized by short-term contracts or freelance work, heavily facilitated by digital platforms and apps.",
+    "answer_ru": "Гиг-экономика — это рынок труда, характеризующийся краткосрочными контрактами или фрилансом, чему способствуют цифровые платформы.",
+    "answer_uz": "Gig-iqtisodiyot bu qisqa muddatli shartnomalar yoki frilanserlik faoliyati bo'lib, raqamli platformalar orqali osonlashtiriladi."
+  },
+  {
+    "id": 19,
+    "topic": "AI Ethics",
+    "question": "Why is explainable AI (XAI) important?",
+    "answer_en": "Explainable AI helps humans understand how machine learning models make specific decisions, which is critical for trust in healthcare and finance sectors.",
+    "answer_ru": "Объяснимый ИИ помогает людям понять, как модели машинного обучения принимают решения, что критически важно для медицины и финансов.",
+    "answer_uz": "Tushuntirilishi mumkin bo'lgan sun'iy intellekt odamlarga modellar qanday qaror qabul qilishini tushunishga yordam beradi."
+  },
+  {
+    "id": 20,
+    "topic": "Future of Work",
+    "question": "Will AI replace human jobs completely?",
+    "answer_en": "While AI will automate repetitive tasks, it is expected to augment human capabilities and create new roles in tech management, data analysis, and AI ethics.",
+    "answer_ru": "Хотя ИИ автоматизирует рутинные задачи, ожидается, что он расширит возможности человека и создаст новые роли в сфере управления технологиями и аналитики данных.",
+    "answer_uz": "Garchi sun'iy intellekt takrorlanuvchi vazifalarni avtomatlashtirsa-da, u inson imkoniyatlarini kengaytirishi va yangi ish o'rinlari yaratishi kutilmoqda."
+  }
+]
