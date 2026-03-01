@@ -59,6 +59,5 @@ if user_query := st.chat_input("Enter your question here... / Введите в�
         "lang": lang,
         "topic": topic
     })
-
     #cd ai_assistant
     #streamlit run search.py
