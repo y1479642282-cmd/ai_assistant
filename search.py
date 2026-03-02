@@ -1,54 +1,63 @@
-import json
-import numpy as np
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
+import streamlit as st
+from engine import FAQEngine
 
-# 加载模型
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# 初始化引擎 (使用 st.cache_resource 避免每次刷新网页都重新加载庞大的模型)
+@st.cache_resource
+def load_engine():
+    return FAQEngine()
 
-# 加载知识库
-with open("data/knowledge_base.json", "r", encoding="utf-8") as f:
-    knowledge_base = json.load(f)
 
-# 英语向量
-questions_en = [item["question"] for item in knowledge_base]
-answers_en = [item["answer"] for item in knowledge_base]
-question_embeddings_en = model.encode(questions_en)
+engine = load_engine()
 
-# 乌兹别克语向量（多问法）
-questions_uz = []
-answers_uz = []
-idx_map_uz = []
-for i, item in enumerate(knowledge_base):
-    for q in item["question_uz"]:
-        questions_uz.append(q)
-        answers_uz.append(item["answer_uz"])
-        idx_map_uz.append(i)
-question_embeddings_uz = model.encode(questions_uz)
+# --- 网页界面设计 ---
+st.title("AI & Digital Economy FAQ Bot")
+st.markdown("Ask me anything about AI adoption, Digital Transformation, Smart Governance, etc.")
+st.markdown("*Supported languages: English, Русский, O'zbekcha*")
 
-def search(query, language="en", top_k=3):
-    if language == "en":
-        embeddings = question_embeddings_en
-        questions = questions_en
-        answers = answers_en
+# 聊天记录存储
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# 显示历史聊天
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        st.markdown(msg["content"])
+        if msg.get("confidence"):
+            st.caption(
+                f"Topic: {msg['topic']} | Language: {msg['lang'].upper()} | Confidence: {msg['confidence'] * 100}%")
+
+# 接收用户输入
+if user_query := st.chat_input("Enter your question here... / Введите ваш вопрос..."):
+    # 显示用户问题
+    with st.chat_message("user"):
+        st.markdown(user_query)
+    st.session_state.messages.append({"role": "user", "content": user_query})
+
+    # 进行检索
+    result = engine.search(user_query)
+    answer = result["answer"]
+    conf = result["confidence"]
+    lang = result["detected_lang"]
+    topic = result["topic"]
+
+    # 逻辑判断：如果置信度太低，给出提示
+    if conf < 0.4:
+        answer = "I'm sorry, I couldn't find a matching answer in my knowledge base. / Извините, я не смог найти ответ. / Kechirasiz, javob topolmadim."
+        conf_display = conf
     else:
-        embeddings = question_embeddings_uz
-        questions = questions_uz
-        answers = answers_uz
+        conf_display = conf
 
-    query_embedding = model.encode([query])
-    similarities = cosine_similarity(query_embedding, embeddings)[0]
+    # 显示机器人回答
+    with st.chat_message("assistant"):
+        st.markdown(answer)
+        st.caption(f"Topic: {topic} | Detected Lang: {lang.upper()} | Confidence: {conf_display * 100}%")
 
-    # top_k 索引
-    top_indices = similarities.argsort()[-top_k:][::-1]
-
-    results = []
-    for idx in top_indices:
-        if similarities[idx] < 0.3:
-            continue
-        results.append({
-            "matched_question": questions[idx],
-            "answer": answers[idx],
-            "confidence": float(similarities[idx])
-        })
-    return results
+    st.session_state.messages.append({
+        "role": "assistant",
+        "content": answer,
+        "confidence": conf_display,
+        "lang": lang,
+        "topic": topic
+    })
+    #cd ai_assistant
+    #streamlit run search.py
