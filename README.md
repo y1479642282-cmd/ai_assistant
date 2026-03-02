@@ -135,7 +135,6 @@ pip install -r requirements.txt
 
 Run Web Application
 streamlit run app.py
-http://localhost:8501
 
 Sample Output
 
@@ -186,3 +185,13 @@ Retrieval-based AI Architecture
 Practical Enterprise Deployment Design
 
 Scalable Knowledge Management
+
+This project demonstrates:
+
+- Implementation of embedding-based semantic retrieval
+- Application of cosine similarity search
+- Structured knowledge base design
+- Modular system architecture (data, logic, interface separation)
+- Practical deployment using a web interface
+
+The system fulfills all technical and functional requirements of the course project.
