@@ -7,14 +7,14 @@ from langdetect import detect
 
 class FAQEngine:
     def __init__(self, data_path="data/faq_data.json"):
-        # 1. 加载支持多语言的开源文本嵌入模型 (支持包括俄语、乌兹别克语在内的50+种语言)
+        #加载支持多语言的开源文本嵌入模型
         self.model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
 
-        # 2. 加载数据
+        #加载数据
         with open(data_path, 'r', encoding='utf-8') as f:
             self.faq_data = json.load(f)
 
-        # 3. 提取所有预设问题，并进行向量化存储 (Vector storage in-memory)
+        #提取所有预设问题，并进行向量化存储
         self.questions = [item["question"] for item in self.faq_data]
         self.question_embeddings = self.model.encode(self.questions)
 
@@ -33,23 +33,23 @@ class FAQEngine:
 
     def search(self, user_query):
         """相似度检索主逻辑"""
-        # 1. 检测用户输入语言
+        #检测用户输入语言
         lang = self.detect_language(user_query)
 
-        # 2. 将用户问题向量化
+        #将用户问题向量化
         query_embedding = self.model.encode([user_query])
 
-        # 3. 计算余弦相似度 (Cosine similarity search)
+        #计算余弦相似度 (Cosine similarity search)
         similarities = cosine_similarity(query_embedding, self.question_embeddings)[0]
 
-        # 4. 找到最高分
+        #找到最高分
         best_match_idx = np.argmax(similarities)
         confidence_score = similarities[best_match_idx]
 
-        # 5. 格式化返回结果
+        #格式化返回结果
         best_faq = self.faq_data[best_match_idx]
 
-        # 根据检测到的语言返回对应的答案
+        #根据检测到的语言返回对应的答案
         answer_key = f"answer_{lang}"
         answer = best_faq.get(answer_key, best_faq["answer_en"])  # 默认回退到英文
 
