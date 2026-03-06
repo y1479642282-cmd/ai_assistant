@@ -19,13 +19,22 @@ class FAQEngine:
         self.question_embeddings = self.model.encode(self.questions)
 
     def detect_language(self, text):
-        """语言检测逻辑"""
+        """升级版语言检测逻辑：启发式规则 + 统计算法"""
+        text_lower = text.lower()
+
+        # 1. 启发式强匹配：只要包含这些乌兹别克语常用特征词或特殊字母组合，直接判定为 uz
+        uz_keywords = ['qanday', 'nima', 'uchun', 'bilan', 'qanaqa', 'shunday', 'haqida', "o'", "g'", 'va']
+        if any(word in text_lower for word in uz_keywords):
+            return 'uz'
+
+        # 2. 算法检测与容错池
         try:
             lang = detect(text)
             if lang == 'ru':
                 return 'ru'
-            elif lang in ['uz', 'tr', 'kk']:
-                return 'uz'  # langdetect 对 uz 识别可能漂移，做个宽泛匹配
+            # 扩大容错范围：突厥语系的语言在短文本下极容易互相误判
+            elif lang in ['uz', 'tr', 'az', 'kk', 'ky', 'tk', 'ug']:
+                return 'uz'
             else:
                 return 'en'
         except:
